@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Shakib Al Hasan",
+    "status": "Allrounder",
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Left-arm spin",
+    "country": "Bangladesh",
+    "auctionValue": 4.0,
+    "img": "/src/assets/shakib-al-hassan.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tamim Iqbal",
+    "status": "Batsman",
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "None",
+    "country": "Bangladesh",
+    "auctionValue": 3.5,
+    "img": "/src/assets/TamimIqbal.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Mushfiqur Rahim",
+    "status": "Batsman",
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "None",
+    "country": "Bangladesh",
+    "auctionValue": 3.2,
+    "img": "/src/assets/musfiq2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Mustafizur Rahman",
+    "status": "Bowler",
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Left-arm fast",
+    "country": "Bangladesh",
+    "auctionValue": 3.8,
+    "img": "/src/assets/Mustafiz.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Mahmudullah Riyad",
+    "status": "Allrounder",
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Off-spin",
+    "country": "Bangladesh",
+    "auctionValue": 3.0,
+    "img": "/src/assets/mahmud.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Liton Das",
+    "status": "Batsman",
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "None",
+    "country": "Bangladesh",
+    "auctionValue": 2.8,
+    "img": "/src/assets/litondas.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Taskin Ahmed",
+    "status": "Bowler",
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm fast",
+    "country": "Bangladesh",
+    "auctionValue": 3.1,
+    "img": "/src/assets/taskin.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Mehidy Hasan Miraz",
+    "status": "Allrounder",
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Off-spin",
+    "country": "Bangladesh",
+    "auctionValue": 3.3,
+    "img": "/src/assets/miraj.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Soumya Sarkar",
+    "status": "Allrounder",
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Medium pace",
+    "country": "Bangladesh",
+    "auctionValue": 2.5,
+    "img": "/src/assets/shommo.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Afif Hossain",
+    "status": "Allrounder",
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Off-spin",
+    "country": "Bangladesh",
+    "auctionValue": 2.7,
+    "img": "/src/assets/afif.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Ebadot Hossain",
+    "status": "Bowler",
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm fast",
+    "country": "Bangladesh",
+    "auctionValue": 2.4,
+    "img": "/src/assets/ebadoth.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Nasum Ahmed",
+    "status": "Bowler",
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Left-arm spin",
+    "country": "Bangladesh",
+    "auctionValue": 2.2,
+    "img": "/src/assets/nasum.jpg"
+  }
+]
