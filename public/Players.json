@@ -6,7 +6,7 @@
     "battingStyle": "Left-handed",
     "bowlingStyle": "Left-arm spin",
     "country": "Bangladesh",
-    "auctionValue": 4.0,
+    "auctionValue": 40000,
     "img": "/src/assets/shakib-al-hassan.jpg"
   },
   {
@@ -16,7 +16,7 @@
     "battingStyle": "Left-handed",
     "bowlingStyle": "None",
     "country": "Bangladesh",
-    "auctionValue": 3.5,
+    "auctionValue": 35000,
     "img": "/src/assets/TamimIqbal.jpg"
   },
   {
@@ -26,7 +26,7 @@
     "battingStyle": "Right-handed",
     "bowlingStyle": "None",
     "country": "Bangladesh",
-    "auctionValue": 3.2,
+    "auctionValue": 32000,
     "img": "/src/assets/musfiq2.jpg"
   },
   {
@@ -36,7 +36,7 @@
     "battingStyle": "Left-handed",
     "bowlingStyle": "Left-arm fast",
     "country": "Bangladesh",
-    "auctionValue": 3.8,
+    "auctionValue": 38000,
     "img": "/src/assets/Mustafiz.jpg"
   },
   {
@@ -46,7 +46,7 @@
     "battingStyle": "Right-handed",
     "bowlingStyle": "Off-spin",
     "country": "Bangladesh",
-    "auctionValue": 3.0,
+    "auctionValue": 30000,
     "img": "/src/assets/mahmud.jpg"
   },
   {
@@ -56,7 +56,7 @@
     "battingStyle": "Right-handed",
     "bowlingStyle": "None",
     "country": "Bangladesh",
-    "auctionValue": 2.8,
+    "auctionValue": 28000,
     "img": "/src/assets/litondas.jpg"
   },
   {
@@ -66,7 +66,7 @@
     "battingStyle": "Right-handed",
     "bowlingStyle": "Right-arm fast",
     "country": "Bangladesh",
-    "auctionValue": 3.1,
+    "auctionValue": 31000,
     "img": "/src/assets/taskin.jpg"
   },
   {
@@ -76,7 +76,7 @@
     "battingStyle": "Right-handed",
     "bowlingStyle": "Off-spin",
     "country": "Bangladesh",
-    "auctionValue": 3.3,
+    "auctionValue": 33000,
     "img": "/src/assets/miraj.jpg"
   },
   {
@@ -86,7 +86,7 @@
     "battingStyle": "Left-handed",
     "bowlingStyle": "Medium pace",
     "country": "Bangladesh",
-    "auctionValue": 2.5,
+    "auctionValue": 25000,
     "img": "/src/assets/shommo.jpg"
   },
   {
@@ -96,7 +96,7 @@
     "battingStyle": "Left-handed",
     "bowlingStyle": "Off-spin",
     "country": "Bangladesh",
-    "auctionValue": 2.7,
+    "auctionValue": 27000,
     "img": "/src/assets/afif.jpg"
   },
   {
@@ -106,7 +106,7 @@
     "battingStyle": "Right-handed",
     "bowlingStyle": "Right-arm fast",
     "country": "Bangladesh",
-    "auctionValue": 2.4,
+    "auctionValue": 24000,
     "img": "/src/assets/ebadoth.jpg"
   },
   {
@@ -116,7 +116,7 @@
     "battingStyle": "Left-handed",
     "bowlingStyle": "Left-arm spin",
     "country": "Bangladesh",
-    "auctionValue": 2.2,
+    "auctionValue": 22000,
     "img": "/src/assets/nasum.jpg"
   }
 ]

@@ -1,6 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const AbailabePlayer = ({player}) => {
+const AbailabePlayer = ({player,Balance,setBalance,selectedplayer,setselectedplayer}) => {
+     const [Selected, setSelected] = useState(true);
+
+     const handleSelectPlayer=()=>{
+        if(Balance >= player.auctionValue){
+            const newBalance= Balance - player.auctionValue;
+            setBalance(newBalance);
+            setSelected(false);
+            const newselectedplayer=[...selectedplayer,player];
+            setselectedplayer(newselectedplayer);
+        }else{
+            alert("You don't have enough balance to select this player");
+            return;
+        }
+    }
+
     return (
         <div>
             <div className='border-2 border-green-300 mt-4'> 
@@ -28,9 +43,9 @@ const AbailabePlayer = ({player}) => {
   </div>
 
     
-    <div class="flex justify-between mt-2">
-      <p className='items-center font-semibold'>Price: <span>$1500000</span></p>
-      <button class="btn ">Choose Player</button>
+    <div className="flex justify-between mt-2">
+      <p className='items-center font-semibold'>Price: $<span>{player.auctionValue}</span></p>
+      <button className="btn"disabled={!Selected} onClick={handleSelectPlayer}> {Selected===true?"Chose Player" :"Selected"}</button>
     </div>
   </div>
 </div>

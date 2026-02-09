@@ -8,14 +8,17 @@ const fetchPlayers = async () => {
   const res =await fetch('/Players.json');
   return res.json();
 }
-
+const PlayersResponse= fetchPlayers();
 function App() {
   const [toggle,settoggle] =useState(true);
+  const [Balance,setBalance]=useState(50000);
+  const [selectedplayer,setselectedplayer]=useState([]);
+  // console.log(selectedplayer);
  
-const PlayersResponse= fetchPlayers();
+
   return (
     <>
-    <Navbar></Navbar>
+    <Navbar Balance={Balance}></Navbar>
     <div className='border-2 border-red-500 max-w-[1200px] mx-auto flex justify-between items-center'>
     <h1 className='font-bold'>Available Players</h1>
 
@@ -26,8 +29,8 @@ const PlayersResponse= fetchPlayers();
     </div>
     {
       toggle === true ? <Suspense fallback={<div>Loading...</div>}>
-      <AbailablePlayers Playersresponse={PlayersResponse}></AbailablePlayers>
-    </Suspense> : <SelectedPlayers></SelectedPlayers>
+      <AbailablePlayers Playersresponse={PlayersResponse} Balance={Balance} setBalance={setBalance} selectedplayer={selectedplayer} setselectedplayer={setselectedplayer}></AbailablePlayers>
+    </Suspense> : <SelectedPlayers selectedplayer={selectedplayer}></SelectedPlayers>
     }
     
 

@@ -3,7 +3,7 @@ import { useState,useEffect } from 'react';
 import AbailabePlayer from './AbailabePlayer.jsx';
 
 
-const AbailablePlayers = ({Playersresponse}) => {
+const AbailablePlayers = ({Playersresponse,Balance,setBalance,selectedplayer,setselectedplayer}) => {
   const [Playersdata,setPlayersdata]=useState([]);
 
   useEffect(()=>{
@@ -12,7 +12,7 @@ const AbailablePlayers = ({Playersresponse}) => {
     return (
     <div className='grid grid-cols-1 md:grid-cols-3 gap-4 object-cover'>
 {
-  Playersdata.map(player=><AbailabePlayer key={player.id} player={player}/>)
+  Playersdata.map(player=><AbailabePlayer key={player.id} player={player} Balance={Balance} setBalance={setBalance} selectedplayer={selectedplayer} setselectedplayer={setselectedplayer}/>)
 }
     
   
