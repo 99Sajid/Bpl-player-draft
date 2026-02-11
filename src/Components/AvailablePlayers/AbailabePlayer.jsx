@@ -1,27 +1,33 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const AbailabePlayer = ({player,Balance,setBalance,selectedplayer,setselectedplayer}) => {
      const [Selected, setSelected] = useState(true);
 
      const handleSelectPlayer=()=>{
+        if(selectedplayer.length >= 6){
+            toast("You can't select more than 6 players");
+            return;
+        }
         if(Balance >= player.auctionValue){
             const newBalance= Balance - player.auctionValue;
             setBalance(newBalance);
             setSelected(false);
             const newselectedplayer=[...selectedplayer,player];
             setselectedplayer(newselectedplayer);
+            toast("Player selected successfully");
         }else{
-            alert("You don't have enough balance to select this player");
+            toast("You don't have enough balance to select this player");
             return;
         }
     }
 
     return (
         <div>
-            <div className='border-2 border-green-300 mt-4'> 
-    <div className=" p-4 card bg-base-100  shadow-sm ">     
+            <div className=' mt-4'> 
+    <div className=" p-4 card bg-base-100  shadow-xl ">     
   <figure>
-    <img className='w-[350px] h-[400px] rounded-2xl'
+    <img className='w-87.5 h-87.5 rounded-2xl'
       src={player.img}
       alt="Shoes" />
   </figure>

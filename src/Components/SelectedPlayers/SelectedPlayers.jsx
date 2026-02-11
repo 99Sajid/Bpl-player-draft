@@ -4,12 +4,13 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
 
 
-const SelectedPlayers = ({selectedplayer, handleRemovePlayer}) => {
-    return (           
+const SelectedPlayers = ({selectedplayer, handleRemovePlayer, settoggle}) => {
+    return (  
+        <div>         
             <div className='grid grid-cols-1 gap-4 pt-4'>
                 {selectedplayer.map(player=> <div key={player.id} className='border-2 border-green-300 w-full p-2 flex items-center gap-4 rounded-lg'>
                 <div>
-                    <img className='w-[80px] h-[80px] rounded-xl' src={player.img} alt={player.name}></img> 
+                    <img className='w-20 h-20 rounded-xl' src={player.img} alt={player.name}></img> 
                 </div>
                 <div className='flex justify-between w-full items-center '>
                     <div>
@@ -21,6 +22,10 @@ const SelectedPlayers = ({selectedplayer, handleRemovePlayer}) => {
                     </div>
                     </div>
                 </div>)}
+
+            
+            </div>
+            <button onClick={()=>settoggle(true)} className="btn btn-primary mt-4">Confirm Team</button>
             </div>
     );
 };

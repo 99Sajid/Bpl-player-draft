@@ -4,6 +4,8 @@ import Banner from './Components/Banner/Banner.jsx';
 import React,{Suspense, useState} from 'react';
 import AbailablePlayers from './Components/AvailablePlayers/AbailablePlayers.jsx';
 import SelectedPlayers from './Components/SelectedPlayers/SelectedPlayers.jsx';
+import Footer from './Components/Footer/Footer.jsx';
+import { ToastContainer } from 'react-toastify';
 
 const fetchPlayers = async () => {
   const res =await fetch('/Players.json');
@@ -12,7 +14,7 @@ const fetchPlayers = async () => {
 const PlayersResponse= fetchPlayers();
 function App() {
   const [toggle,settoggle] =useState(true);
-  const [Balance,setBalance]=useState(50000);
+  const [Balance,setBalance]=useState(190000);
   // console.log(Balance);
   const [selectedplayer,setselectedplayer]=useState([]);
   // console.log(selectedplayer);
@@ -28,9 +30,9 @@ const handleRemovePlayer=(player)=>{
     <>
     <Navbar Balance={Balance}></Navbar>
     <Banner></Banner>
-    <div className='border-2 border-red-500 max-w-[1200px] mx-auto flex justify-between items-center mt-4'>
+    <div className=' max-w-300 mx-auto flex justify-between items-center mt-4'>
     {
-      toggle===true?<><h2 className='text-xl font-semibold'>Available Players</h2></>:<><h2 className='text-xl font-semibold'>Selected Players</h2></>
+      toggle===true?<><h2 className='text-xl font-semibold'>Available Players ({selectedplayer.length}<span>/6)</span></h2></>:<><h2 className='text-xl font-semibold'>Selected Players ({selectedplayer.length}<span>/6)</span></h2></>
     }
 
     <div>
@@ -41,9 +43,18 @@ const handleRemovePlayer=(player)=>{
     {
       toggle === true ? <Suspense fallback={<div>Loading...</div>}>
       <AbailablePlayers Playersresponse={PlayersResponse} Balance={Balance} setBalance={setBalance} selectedplayer={selectedplayer} setselectedplayer={setselectedplayer}></AbailablePlayers>
-    </Suspense> : <SelectedPlayers selectedplayer={selectedplayer} handleRemovePlayer={handleRemovePlayer}></SelectedPlayers>
+    </Suspense> : <SelectedPlayers selectedplayer={selectedplayer} handleRemovePlayer={handleRemovePlayer} settoggle={settoggle}></SelectedPlayers>
     }
-    
+    <ToastContainer />
+
+
+
+<Footer> </Footer>
+
+  
+
+
+  
 
       
     </>

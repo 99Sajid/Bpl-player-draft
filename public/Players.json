@@ -7,7 +7,7 @@
     "bowlingStyle": "Left-arm spin",
     "country": "Bangladesh",
     "auctionValue": 40000,
-    "img": "/src/assets/shakib-al-hassan.jpg"
+    "img": "/assets/shakib-al-hassan.jpg"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "bowlingStyle": "None",
     "country": "Bangladesh",
     "auctionValue": 35000,
-    "img": "/src/assets/TamimIqbal.jpg"
+    "img": "/assets/TamimIqbal.jpg"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "bowlingStyle": "None",
     "country": "Bangladesh",
     "auctionValue": 32000,
-    "img": "/src/assets/musfiq2.jpg"
+    "img": "/assets/musfiq2.jpg"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "bowlingStyle": "Left-arm fast",
     "country": "Bangladesh",
     "auctionValue": 38000,
-    "img": "/src/assets/Mustafiz.jpg"
+    "img": "/assets/Mustafiz.jpg"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "bowlingStyle": "Off-spin",
     "country": "Bangladesh",
     "auctionValue": 30000,
-    "img": "/src/assets/mahmud.jpg"
+    "img": "/assets/mahmud.jpg"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "bowlingStyle": "None",
     "country": "Bangladesh",
     "auctionValue": 28000,
-    "img": "/src/assets/litondas.jpg"
+    "img": "/assets/litondas.jpg"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "bowlingStyle": "Right-arm fast",
     "country": "Bangladesh",
     "auctionValue": 31000,
-    "img": "/src/assets/taskin.jpg"
+    "img": "/assets/taskin.jpg"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "bowlingStyle": "Off-spin",
     "country": "Bangladesh",
     "auctionValue": 33000,
-    "img": "/src/assets/miraj.jpg"
+    "img": "/assets/miraj.jpg"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "bowlingStyle": "Medium pace",
     "country": "Bangladesh",
     "auctionValue": 25000,
-    "img": "/src/assets/shommo.jpg"
+    "img": "/assets/shommo.jpg"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "bowlingStyle": "Off-spin",
     "country": "Bangladesh",
     "auctionValue": 27000,
-    "img": "/src/assets/afif.jpg"
+    "img": "/assets/afif.jpg"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "bowlingStyle": "Right-arm fast",
     "country": "Bangladesh",
     "auctionValue": 24000,
-    "img": "/src/assets/ebadoth.jpg"
+    "img": "/assets/ebadoth.jpg"
   },
   {
     "id": 12,
@@ -117,6 +117,6 @@
     "bowlingStyle": "Left-arm spin",
     "country": "Bangladesh",
     "auctionValue": 22000,
-    "img": "/src/assets/nasum.jpg"
+    "img": "/assets/nasum.jpg"
   }
 ]
